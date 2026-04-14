@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trade With Anish | Half CA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0B0F19;
+    color:#fff;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#1A1F2E;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    color:#FFD700;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#fff;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero span{
+    color:#FFD700;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#FFD700;
+    color:#000;
+    border:none;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.section{
+    padding:60px 50px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+.card{
+    background:#1A1F2E;
+    padding:20px;
+    width:30%;
+    border-radius:10px;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#1A1F2E;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Trade With Anish</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Free Content</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<section class="hero"><section class="section">
+    <h2>🔥 Live Trade Levels</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>NIFTY</h3>
+            <p style="color:#FFD700;">Buy Above: <span id="niftyBuy">--</span></p>
+            <p style="color:red;">SL: <span id="niftySL">--</span></p>
+            <p style="color:lightgreen;">Target: <span id="niftyTarget">--</span></p>
+        </div>
+
+        <div class="card">
+            <h3>BANKNIFTY</h3>
+            <p style="color:#FFD700;">Buy Above: <span id="bankBuy">--</span></p>
+            <p style="color:red;">SL: <span id="bankSL">--</span></p>
+            <p style="color:lightgreen;">Target: <span id="bankTarget">--</span></p>
+        </div>
+
+    </div>
+</section>
+
+<script>
+document.getElementById("niftyBuy").innerText = "22980";
+document.getElementById("niftySL").innerText = "22950";
+document.getElementById("niftyTarget").innerText = "23080";
+
+document.getElementById("bankBuy").innerText = "48200";
+document.getElementById("bankSL").innerText = "48120";
+document.getElementById("bankTarget").innerText = "48400";
+</script>
+    <h1>Learn Trading & CA <span>Practically</span></h1>
+    <p>No Theory Bakwaas | Real Market Learning</p>
+    <button class="btn">Join Course</button>
+</section>
+
+<section class="section">
+    <h2>What You Will Learn</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Intraday Trading</h3>
+            <p>Exact entry, SL & target strategy</p>
+        </div>
+        <div class="card">
+            <h3>Swing Trading</h3>
+            <p>High probability setups</p>
+        </div>
+        <div class="card">
+            <h3>Trade Levels</h3>
+            <p>Simple & exam-focused learning</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Why Choose Me?</h2>
+    <p>Hindi + Hinglish | Practical Charts | Real Experience</p>
+</section>
+
+<section class="section"><a href="https://t.me/anishsingh28" target="_blank">
+    <button class="btn" style="font-size:18px;">
+        🚀 Join Telegram for Live Levels
+    </button>
+</a><section class="section">
+    <h2>📚 Our Courses</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Intraday Mastery</h3>
+            <p>✔ Live Setup Strategy</p>
+            <p>✔ Entry + SL + Target</p>
+            <p>✔ Risk Management</p>
+            <h2>₹999</h2>
+
+            <button class="btn" onclick="payNow()">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <h3>Swing Trading Course</h3>
+            <p>✔ High Probability Setups</p>
+            <p>✔ Chart Reading</p>
+            <p>✔ Stock Selection</p>
+            <h2>₹1499</h2>
+
+            <button class="btn" onclick="payNow()">Buy Now</button>
+        </div>
+
+    </div>
+</section>
+    <section class="section">
+
+    <h2>🚀 Enroll Today</h2>
+    <p style="margin-bottom:20px;">Start Your Trading Journey Now</p>
+
+    <div class="card" style="max-width:500px; margin:auto;">
+
+        <h3 style="color:#FFD700;">Intraday Mastery Course</h3>
+
+        <p>✔ Live Market Strategy</p>
+        <p>✔ Entry + SL + Target</p>
+        <p>✔ Risk Management</p>
+
+        <h2 style="margin:15px 0;">₹999</h2>
+
+        <p style="color:red; font-weight:600;">
+        ⚠ Limited Seats Available
+        </p>
+
+        <button class="btn" onclick="payNow()">
+            💰 Buy Now
+        </button>
+
+    </div>
+
+</section>
+</section>
+<section class="section" id="about">
+
+    <h2>👨‍🏫 About Me</h2>
+
+    <div class="card" style="max-width:900px; margin:auto; text-align:left;">
+
+        <div style="text-align:center;">
+            <h3 style="color:#FFD700;">Trade With Anish</h3>
+            <p>Half CA Student | Trader | Educator</p>
+        </div>
+
+        <hr style="margin:20px 0; border:0.5px solid #333;">
+
+        <h3>🚀 My Journey</h3>
+        <p>
+        मैं Anish हूँ — Half CA Student और Trader।
+        मैंने trading zero से शुरू की और धीरे-धीरे practical learning से strategy develop की।
+        </p>
+
+        <h3>📊 What I Teach</h3>
+        <ul>
+            <li>✔ Intraday Trading</li>
+            <li>✔ Swing Trading</li>
+            <li>✔ Entry + SL + Target</li>
+        </ul>
+
+        <h3>🔥 My Mission</h3>
+        <p style="color:#FFD700;">
+        No Fake Promises — Only Real Learning
+        </p>
+
+        <a href="https://t.me/anishsingh28" target="_blank">
+            <button class="btn">Join Telegram 🚀</button>
+        </a>
+
+    </div>
+
+</section>
+<div class="footer">
+    <p>© 2026 Trade With Anish | Half CA</p>
+</div>
+
+</body>
+</html>
